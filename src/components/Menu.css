@@ -1,0 +1,26 @@
+.menu {
+  position: absolute;
+  top: 20px;
+  right: 10%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.menu a {
+  text-decoration: none;
+}
+
+.menu-item {
+  color: #000;
+  background: #fff;
+  padding: 12px 24px;
+  border-radius: 4px;
+}
+
+@media (max-width: 600px) {
+  .menu {
+    right: inherit;
+  }
+}
